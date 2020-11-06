@@ -8,3 +8,13 @@
 .my-col__3 {
   border: 1px solid red;
 }
+
+.logo {
+  background-color: red;
+}
+
+.opn > .btn-light {
+  background-color:  red;
+  color:white;
+  font-weight: 500;
+}
