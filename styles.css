@@ -9,6 +9,17 @@
   border: 1px solid red;
 }
 
+.my-main-container {
+  /* background-color: #ff0500; */
+  background-color: #f51f01;
+  color: white;
+}
+
+.my-form {
+  width: 50%;
+  margin: auto;
+}
+
 .logo {
   background-color: red;
 }
