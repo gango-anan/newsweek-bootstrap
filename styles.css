@@ -1,31 +1,17 @@
-.my-col__1 {
-  border: 1px solid blue;
-}
-.my-col__2 {
-  border: 1px solid chartreuse;
-}
-
-.my-col__3 {
-  border: 1px solid red;
-}
-
-.my-main-container {
-  /* background-color: #ff0500; */
-  background-color: #f51f01;
-  color: white;
-}
-
-.my-form {
-  width: 50%;
-  margin: auto;
+.my-header_top {
+  background-color: #f72210;
 }
 
 .logo {
-  background-color: red;
+  width: 100%;
+  min-width: 132px;
 }
 
-.opn > .btn-light {
-  background-color:  red;
-  color:white;
-  font-weight: 500;
+.fontAwesome {
+  font-family: 'Helvetica', FontAwesome, sans-serif;
+}
+
+.badge-note {
+  left: 0;
+  bottom: 0;
 }
