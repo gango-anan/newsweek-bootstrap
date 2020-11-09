@@ -33,6 +33,19 @@
   margin-bottom: -8px;
 }
 
+.newsletter {
+  position: relative;
+}
+
+.newsletter img {
+  /* object-fit: cover; */
+  height: 98%;
+}
+
+/* .wid {
+  width: 95%;
+} */
+
 .logo-details {
   font-size: 12px;
 }
