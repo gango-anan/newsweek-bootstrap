@@ -49,3 +49,18 @@
 .logo-details {
   font-size: 12px;
 }
+
+
+.custome-position {
+  left: 45%;
+  top: 40%;
+  z-index: 10;
+}
+
+.custom-margin {
+  margin-bottom: 1px;
+}
+
+.custom-boder {
+  border-top: 3px solid #e0e0e0
+}
