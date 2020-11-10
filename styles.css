@@ -33,18 +33,11 @@
   margin-bottom: -8px;
 }
 
-.newsletter {
-  position: relative;
+.newsletter img,
+.subscribe img {
+  height: 100%;
 }
 
-.newsletter img {
-  /* object-fit: cover; */
-  height: 98%;
-}
-
-/* .wid {
-  width: 95%;
-} */
 
 .logo-details {
   font-size: 12px;
@@ -60,3 +53,21 @@
 .custom-margin {
   margin-bottom: 1px;
 }
+
+.sub-custome {
+  left: 20%;
+}
+
+ @media screen and (min-width: 768px) {
+  .bod {
+    border-right: 1px solid lightgray;
+  }
+} 
+
+@media screen and (max-width: 768px) {
+  .news button {
+  font-size: 14px;
+  margin-top: -8px;
+  }
+}
+
