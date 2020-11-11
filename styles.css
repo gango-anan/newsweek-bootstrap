@@ -64,6 +64,10 @@
   .bod {
     border-right: 1px solid lightgray;
   }
+
+  .custom-font_size {
+    font-size: 12px;
+  }
 } 
 
 @media screen and (max-width: 768px) {
