@@ -65,9 +65,11 @@
 } 
 
 @media screen and (max-width: 768px) {
-  .news button {
-  font-size: 14px;
-  margin-top: -8px;
+  .news-button {
+    margin-top: -1rem;
+    margin-left: -0.25rem;
   }
 }
+
+
 
