@@ -49,11 +49,9 @@ Smashing Magazine page including a Header, Main and Footer sections.
  - Browser: Google Chrome, Mozilla Firefox, Edge, etc.
  
 
-
 ### **Set up:**
 
 You can download the code or clone the repository to your local system.
-
 
 
 ## **Authors:**
