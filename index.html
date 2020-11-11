@@ -1,0 +1,1379 @@
+<!doctype html>
+<html lang="en" class="bg-light">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+    integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+  <link rel="shortcut icon" href="images/favicon.ico">
+  <title>Newsweek - News, Analysis, Politics, Business, Technology</title>
+  <script src="https://unpkg.com/ionicons@5.2.3/dist/ionicons.js"></script>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+
+<body class="ml-3 mr-3 bg-white">
+  <header>
+<!-- NAVIGATION BAR -->
+    <div class="container-fluid pt-lg-3 pb-lg-3 my-header_top">
+      <div class="row align-items-end">
+        <div class="col-3 col-lg d-none d-md-none d-lg-block">
+          <div>
+            <h6 class="text-white"><b>
+                <ion-icon name="sunny-sharp"></ion-icon> 23<sup>o</sup> Kampala, UG <ion-icon name="chevron-forward">
+                </ion-icon>
+              </b></h6>
+          </div>
+          <div>
+            <time datetime="2020-11-07" class="text-white">Sat, Nov 07, 2020</time>
+          </div>
+        </div>
+        <div class="col-2 col-lg-6  my-logo">
+          <a href="#"><svg class="logo" version="1.1" width="396" height="60" id="Layer_1"
+              xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+              viewBox="0 0 396 60" style="enable-background:new 0 0 395.6 60; fill: #fff;" xml:space="preserve">
+              <g>
+                <path class="st0"
+                  d="M58.7,10.8h-5.6v48.3H42.8l-25.1-33v22.1h5.6v10.8H0V48.3h5.6V10.8H0V0h17.6L41,30.7V10.8h-5.6V0h23.2	L58.7,10.8L58.7,10.8z M95.8,38c0,0.9,0,1.8-0.1,2.7H70.3c-0.7,8.2,2.4,10.6,7.1,10.6c3.9,0,6.9-2.6,6.9-6.6h11	c-0.3,7.2-4,15.4-18.5,15.4c-14.5,0-21.3-10.5-21.3-22.1c0-10.5,7-21.6,21-21.6C89.9,16.3,95.8,25.6,95.8,38 M159,27.3h-3.7	l-9.4,31.8h-12.5l-5.9-17.4l-5.3,17.4h-12.8L98.8,27.4h-3.7V16.6h22.1v10.7h-5.6l5.8,16.9l7.6-27.6h6.8l9.3,27.6l5-16.9h-5.6V16.6	H159L159,27.3L159,27.3z M174.5,27.8c0,1.5,1.2,2.5,5.4,3.9l6,2c5.5,1.8,12.1,5.9,12.1,13.4c0,8.8-6.6,13-14.7,13	c-6.5,0-11.5-3.2-12.9-4.6V59h-10.8V44.4h10.6c0.3,4.8,4.6,7.3,8.5,7.3c3.2,0,4.7-1.4,4.7-3c0-2-1.2-3.1-6.5-4.8l-5.3-1.8	c-5.4-1.7-11.4-5.7-11.4-12.8c0-8.7,7.7-13.1,14.3-13.1c6.8,0,10.1,1.9,11.8,3.8l0.1-3.3H197v13.3h-11.2c-0.2-3.6-3.7-5.2-7.2-5.2	C175.8,24.8,174.5,26.1,174.5,27.8 M262.8,27.3h-3.7l-9.4,31.8h-12.5l-5.9-17.4L226,59.1h-12.8l-10.6-31.7h-3.7V16.6h22.1v10.7	h-5.6l5.8,16.9l7.6-27.6h6.8l9.3,27.7l5-16.9h-5.6V16.6h18.5V27.3z M302,37.9c0,0.9,0,1.8-0.1,2.7h-25.4	c-0.7,8.2,2.4,10.6,7.1,10.6c3.9,0,6.9-2.6,6.9-6.6h11c-0.3,7.2-4,15.4-18.5,15.4c-14.5,0-21.3-10.5-21.3-22.1	c0-10.5,7-21.6,21-21.6C296.1,16.2,302,25.5,302,37.9 M343.9,37.8c0,0.9,0,1.8-0.1,2.7h-25.4c-0.7,8.2,2.4,10.6,7.1,10.6	c3.9,0,6.9-2.6,6.9-6.6h11c-0.3,7.2-4,15.4-18.5,15.4c-14.5,0-21.3-10.5-21.3-22.1c0-10.5,7-21.6,21-21.6	C338,16.1,343.9,25.4,343.9,37.8 M389.9,59h-12.8l-13.3-17.3l-4.3,3.2v3.4h3.8V59h-19.6V48.3h3.7V10.6h-5.6V0h17.8v33.9l8.9-6.5	h-5.6V16.6h23.9v10.8h-3.7l-9.3,7l10.7,13.9h5.6L389.9,59L389.9,59z M395.6,56.6c0,0.5-0.1,0.9-0.4,1.2c-0.2,0.4-0.5,0.7-0.9,0.9	c-0.4,0.2-0.8,0.4-1.3,0.4c-0.5,0-0.9-0.1-1.2-0.4c-0.4-0.2-0.7-0.5-0.9-0.9c-0.2-0.4-0.4-0.8-0.4-1.2c0-0.5,0.1-0.9,0.4-1.2	c0.2-0.4,0.5-0.7,0.9-0.9c0.4-0.2,0.8-0.4,1.2-0.4c0.5,0,0.9,0.1,1.3,0.4c0.4,0.2,0.7,0.5,0.9,0.9	C395.5,55.8,395.6,56.2,395.6,56.6 M394.6,58c0.4-0.4,0.6-0.9,0.6-1.4c0-0.6-0.2-1-0.6-1.4s-0.9-0.6-1.4-0.6s-1,0.2-1.4,0.6	c-0.4,0.4-0.6,0.9-0.6,1.4c0,0.6,0.2,1,0.6,1.4c0.4,0.4,0.9,0.6,1.4,0.6S394.2,58.4,394.6,58 M393.6,56.8c0.1,0.1,0.2,0.1,0.2,0.1	c0.1,0.1,0.2,0.2,0.2,0.3c0,0,0.2,0.3,0.4,0.8h-0.8c-0.3-0.5-0.4-0.8-0.5-0.9c-0.1-0.1-0.2-0.2-0.3-0.2c0,0-0.1,0-0.1,0v1.1h-0.6	v-2.6h1.2c0.4,0,0.6,0.1,0.7,0.2c0.2,0.2,0.2,0.3,0.2,0.6c0,0.2-0.1,0.4-0.2,0.5C393.9,56.6,393.8,56.7,393.6,56.8 M393.5,56.3	c0.1-0.1,0.1-0.2,0.1-0.3s-0.1-0.2-0.1-0.3c-0.1-0.1-0.2-0.1-0.4-0.1h-0.3v0.7h0.3C393.3,56.4,393.4,56.4,393.5,56.3 M318.4,33.5	h13.9c0-6-3.9-8.4-6.8-8.4C322.1,25.2,318.6,27.9,318.4,33.5 M276.5,33.6h13.9c0-6-3.9-8.4-6.8-8.4C280.3,25.2,276.8,28,276.5,33.6 M70.3,33.7h13.9c0-6-3.9-8.4-6.8-8.4C74.1,25.3,70.6,28.1,70.3,33.7">
+                </path>
+              </g>
+            </svg></a>
+        </div>
+        <div class="col-10 col-lg  d-flex justify-content-end p-0">
+          <span class="h4 d-md-none mr-0"><a href="#" class="text-light"><ion-icon name="person"></ion-icon></a></span>
+          <h4 class="mr-2 d-none d-md-block">
+            <a href="#" class="badge text-white">LOGIN</a>
+          </h4>
+          <p class="ml-1 btn-warning rounded-pill px-2 lead mr-4">
+            <a href="#" class="text-dark custom-font font-weight-bold text-decoration-none">SUBSCRIBE <ion-icon name="chevron-forward"></ion-icon></a>
+          </p>
+          <nav class="p-0 navbar navbar-toggleable-sm navbar-expand-lg d-lg-none  navbar-dark my-mobile_nav position-absolute custom-z_index">
+            <button class="my-header_top navbar-toggler-right p-0 border-0" type="button" data-toggle="collapse" data-target="#navigation_menu">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse d-lg-inline-block" id="navigation_menu">
+              <div class="navbar-nav bg-white">
+                <div class="my-bottom_menu-1">
+                  <form class="d-iflex ml-0 text-nowrap">
+                    <input type="text" class="p-0  border-0  fontAwesome" placeholder="Search &nbsp; &#xF002;"
+                      aria-label="Search">
+                  </form>
+                  <a href="#" class="nav-item nav-link text-dark"><b>U.S.</b></a>
+                  <a href="#" class="nav-item nav-link text-dark"><b>World</b> </a>
+                  <a href="#" class="nav-item nav-link text-dark"><b>Business</b></a>
+                  <a href="#" class="nav-item nav-link text-dark"><b>Tech & Science</b> </a>
+                  <a href="#" class="nav-item nav-link text-dark"><b>Culture</b></a>
+                  <a href="#" class="nav-item nav-link text-dark"><b>Newsgeek</b></a>
+                  <a href="#" class="nav-item nav-link text-dark"><b>Sports</b></a>
+                  <a href="#" class="nav-item nav-link text-dark"><b>Health</b></a>
+                  <a href="#" class="nav-item nav-link text-dark"><b>The Debate</b></a>
+                  <a href="#" class="nav-item nav-link text-dark"><b>Vantage</b></a>
+                  <a href="#" class="nav-item nav-link text-dark"><b>Weather</b></a>
+                </div>
+                <div class="my-bottom_menu-2 border-top mt-3 pt-3">
+                  <span class="nav-item text-dark"><b>Trending</b></span>
+                  <a href="#" class="nav-item nav-link text-muted">Donald Trump</a>
+                  <a href="#" class="nav-item nav-link text-muted">Joe Biden</a>
+                  <a href="#" class="nav-item nav-link text-muted">2020 Election</a>
+                  <a href="#" class="nav-item nav-link text-muted">Stimulus Package</a>
+                  <a href="#" class="nav-item nav-link text-muted">Coronavirus</a>
+                  <a href="#" class="nav-item nav-link text-muted">Counties That Count</a>
+                </div>
+              </div>
+            </div>
+          </nav>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid d-none d-lg-block">
+      <div class="row pt-3 pb-3 border-bottom">
+        <div class="col-lg-auto border-right pl-2 pr-2"><a href="#" class="text-dark "><b>U.S.</b></a></div>
+        <div class="col-lg-auto border-right pl-2 pr-2"><a href="#" class="text-dark "><b>World</b></a></div>
+        <div class="col-lg-auto border-right pl-2 pr-2"><a href="#" class="text-dark "><b>Business</b></a></div>
+        <div class="col-lg-auto border-right pl-2 pr-2"><a href="#" class="text-dark "><b>Tech & Science</b></a></div>
+        <div class="col-lg-auto border-right pl-2 pr-2"><a href="#" class="text-dark "><b>Culture</b></a></div>
+        <div class="col-lg-auto border-right pl-2 pr-2"><a href="#" class="text-dark "><b>Newsgeek</b></a></div>
+        <div class="col-lg-auto border-right pl-2 pr-2"><a href="#" class="text-dark "><b>Sports</b></a></div>
+        <div class="col-lg-auto border-right pl-2 pr-2"><a href="#" class="text-dark "><b>Health</b></a></div>
+        <div class="col-lg-auto border-right pl-2 pr-2"><a href="#" class="text-dark "><b>The Debate</b></a></div>
+        <div class="col-lg-auto border-right pl-2 pr-2"><a href="#" class="text-dark "><b>Vantage</b></a></div>
+        <div class="col-lg-auto pl-2 pr-2"><a href="#" class="text-dark h6"><b>Weather</b></a></div>
+        <div class="col-lg-auto pl-2">
+          <form class="d-iflex ml-0 text-nowrap">
+            <input type="text" class="p-0  border-0  fontAwesome" placeholder="Search &nbsp; &#xF002;"
+              aria-label="Search">
+          </form>
+        </div>
+      </div>
+      <div class="row pt-2 pb-2 border-bottom border-top">
+        <div class="col-lg-auto pl-4 h6"><b>TRENDING</b></div>
+        <div class="col-lg-auto pl-0"><a href="#" class="text-muted h6"><b>DONALD TRUMP</b></a></div>
+        <div class="col-lg-auto pl-0"><a href="#" class="text-muted h6"><b>JOE BIDEN</b></a></div>
+        <div class="col-lg-auto pl-0"><a href="#" class="text-muted h6"><b>2020 ELECTION</b></a></div>
+        <div class="col-lg-auto pl-0"><a href="#" class="text-muted h6"><b>STIMULUS PACKAGE</b></a></div>
+        <div class="col-lg-auto pl-0"><a href="#" class="text-muted h6"><b>CORONAVIRUS</b></a></div>
+        <div class="col-lg-auto pl-0"><a href="#" class="text-muted h6"><b>COUNTIES THAT COUNT</b></a></div>
+      </div>
+    </div>
+  </header>
+  <main>
+<!-- FEATURED STORIES, TOP STORY, THE DEBATE         -->    
+    <div class="container-fluid pt-3 border-top">
+      <div class="row">
+        <!-- Featured Stories         -->
+        <div class="col-md-6 col-lg">
+          <article>
+            <h6 class="text-muted">FEATURED STORIES</h6>
+            <div class="card border-0 mb-2">
+              <div class="position-relative">
+                <a href="#"><img class="card-img-top" src="images/featured_1.webp" alt="Card image cap"></a>
+                <div class="bg-light px-2 py-1 badge-note position-absolute m-0 h5"><a href="#" class="custom-font_color font-weight-bold text-decoration-none">U.S.</a></div>
+              </div>
+              <div class="card-body py-2 px-0">
+                <h5 class="card-title"><a href="#" class="text-dark font-weight-bold">Biden Inherits COVID-19 Pandemic as Daily Record Broken for Fourth Day</a></h5>
+                <p class="card-text">There were 134,377 new COVID-19 cases reported across the U.S. on Saturday, the day Joe Biden became president-elect.</p>
+              </div>
+            </div>
+          </article>
+          <article>
+            <div class="card border-0 mb-2">
+              <div class="position-relative">
+                <a href="#"><img class="card-img-top" src="images/featured_2.webp" alt="Card image cap"></a>
+                <div class="bg-light px-2 py-1 badge-note position-absolute m-0 h5"><a href="#" class="custom-font_color font-weight-bold text-decoration-none">U.S.</a></div>
+              </div>
+              <div class="card-body py-2 px-0">
+                <h5 class="card-title"><a href="#" class="text-dark font-weight-bold">Biden Inherits COVID-19 Pandemic as Daily Record Broken for Fourth Day</a></h5>
+                <p class="card-text">There were 134,377 new COVID-19 cases reported across the U.S. on Saturday, the day Joe Biden became president-elect.</p>
+              </div>
+            </div>
+          </article>
+          <article>
+            <div class="card border-0 mb-2">
+              <div class="position-relative">
+                <a href="#"><img class="card-img-top" src="images/featured_3.webp" alt="Card image cap"></a>
+                <div class="bg-light px-2 py-1 badge-note position-absolute m-0 h5"><a href="#" class="custom-font_color font-weight-bold text-decoration-none">U.S.</a></div>
+              </div>
+              <div class="card-body py-2 px-0">
+                <h5 class="card-title"><a href="#" class="text-dark font-weight-bold">Biden Inherits COVID-19 Pandemic as Daily Record Broken for Fourth Day</a></h5>
+                <p class="card-text">There were 134,377 new COVID-19 cases reported across the U.S. on Saturday, the day Joe Biden became president-elect.</p>
+              </div>
+            </div>
+          </article>
+
+          <article>
+            <div class="card border-0 mb-2">
+              <div class="position-relative">
+                <a href="#"><img class="card-img-top" src="images/featured_4.webp" alt="Card image cap"></a>
+                <div class="bg-light px-2 py-1 badge-note position-absolute m-0 h5"><a href="#" class="custom-font_color font-weight-bold text-decoration-none">U.S.</a></div>
+              </div>
+              <div class="card-body py-2 px-0">
+                <h5 class="card-title"><a href="#" class="text-dark font-weight-bold">Biden Inherits COVID-19 Pandemic as Daily Record Broken for Fourth Day</a></h5>
+                <p class="card-text">There were 134,377 new COVID-19 cases reported across the U.S. on Saturday, the day Joe Biden became president-elect.</p>
+              </div>
+            </div>
+          </article>
+
+          <article>
+            <div class="card border-0 mb-2">
+              <div class="position-relative">
+                <a href="#"><img class="card-img-top" src="images/featured_5.jpg" alt="Card image cap"></a>
+                <div class="bg-light px-2 py-1 badge-note position-absolute m-0 h5"><a href="#" class="custom-font_color font-weight-bold text-decoration-none">U.S.</a></div>
+              </div>
+              <div class="card-body py-2 px-0">
+                <h5 class="card-title"><a href="#" class="text-dark font-weight-bold">Biden Inherits COVID-19 Pandemic as Daily Record Broken for Fourth Day</a></h5>
+                <p class="card-text">There were 134,377 new COVID-19 cases reported across the U.S. on Saturday, the day Joe Biden became president-elect.</p>
+              </div>
+            </div>
+          </article>
+
+          <div class="card">
+            <div class="position-relative">
+              <a href="#"><img class="card-img-top" src="images/sponsored_1.jpg" alt="Card image cap"></a>
+              <span class="text-primary font-weight-bold bg-light px-2 py-1 badge-note position-absolute">SPONSORED
+                INSIGHT</span>
+            </div>
+            <div class="card-body">
+              <h5 class="card-title "><a href="#" class="text-dark font-weight-bolder">Serbia Has Risen to Become the
+                  Leading Investment Location in Central and Eastern Europe</a></h5>
+              <p class="card-text">Offering customs-free access to 15% of the global market, a young, talented
+                workforce, and high potential for future growth in sectors such as construction and IT.</p>
+            </div>
+          </div>
+          <div class="card mt-4">
+            <div class="position-relative">
+              <a href="#"><img class="card-img-top" src="images/sponsored_2.jpg" alt="Card image cap"></a>
+              <span class="text-primary font-weight-bold bg-light px-2 py-1 badge-note position-absolute">SPONSORED
+                INSIGHT</span>
+            </div>
+            <div class="card-body">
+              <h5 class="card-title "><a href="#" class="text-dark font-weight-bolder">Serbia Has Risen to Become the
+                  Leading Investment Location in Central and Eastern Europe</a></h5>
+              <p class="card-text">Offering customs-free access to 15% of the global market, a young, talented
+                workforce, and high potential for future growth in sectors such as construction and IT.</p>
+            </div>
+          </div>
+          <div class="card mt-4">
+            <div class="position-relative">
+              <a href="#"><img class="card-img-top" src="images/sponsored_3.png" alt="Card image cap"></a>
+              <span class="text-primary font-weight-bold bg-light px-2 py-1 badge-note position-absolute ">SPONSORED
+                INSIGHT</span>
+            </div>
+            <div class="card-body">
+              <h5 class="card-title "><a href="#" class="text-dark font-weight-bolder">Serbia Has Risen to Become the
+                  Leading Investment Location in Central and Eastern Europe</a></h5>
+              <p class="card-text">Offering customs-free access to 15% of the global market, a young, talented
+                workforce, and high potential for future growth in sectors such as construction and IT.</p>
+            </div>
+          </div>
+          <div class="card mt-4">
+            <div class="position-relative">
+              <a href="#"><img class="card-img-top" src="images/sponsored_4.png" alt="Card image cap"></a>
+              <span class="text-primary font-weight-bold bg-light px-2 py-1 badge-note position-absolute">SPONSORED
+                INSIGHT</span>
+            </div>
+            <div class="card-body">
+              <h5 class="card-title "><a href="#" class="text-dark font-weight-bolder">Serbia Has Risen to Become the
+                  Leading Investment Location in Central and Eastern Europe</a></h5>
+              <p class="card-text">Offering customs-free access to 15% of the global market, a young, talented
+                workforce, and high potential for future growth in sectors such as construction and IT.</p>
+            </div>
+          </div>
+          <div class="card mt-4">
+            <div class="position-relative">
+              <a href="#"><img class="card-img-top" src="images/sponsored_5.png" alt="Card image cap"></a>
+              <span class="text-primary font-weight-bold bg-light px-2 py-1 badge-note position-absolute">SPONSORED
+                INSIGHT</span>
+            </div>
+            <div class="card-body">
+              <h5 class="card-title "><a href="#" class="text-dark font-weight-bolder">Serbia Has Risen to Become the
+                  Leading Investment Location in Central and Eastern Europe</a></h5>
+              <p class="card-text">Offering customs-free access to 15% of the global market, a young, talented
+                workforce, and high potential for future growth in sectors such as construction and IT.</p>
+            </div>
+          </div>
+          <div class="card mt-4">
+            <div class="position-relative">
+              <a href="#"><img class="card-img-top" src="images/sponsored_6.png" alt="Card image cap"></a>
+              <span class="text-primary font-weight-bold bg-light px-2 py-1 badge-note position-absolute">SPONSORED
+                INSIGHT</span>
+            </div>
+            <div class="card-body">
+              <h5 class="card-title "><a href="#" class="text-dark font-weight-bolder">Serbia Has Risen to Become the
+                  Leading Investment Location in Central and Eastern Europe</a></h5>
+              <p class="card-text">Offering customs-free access to 15% of the global market, a young, talented
+                workforce, and high potential for future growth in sectors such as construction and IT.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Top Story -->
+        <div class="col-md-6 col-lg-5">
+          <article>
+            <h6 class="text-muted">TOP STORY</h6>
+            <div class="card border-0 mb-2">
+              <div class="position-relative">
+                <a href="#"><img class="card-img-top" src="images/top-story_1.jpg" alt="Card image cap"></a>
+                <div class="bg-light px-2 py-1 badge-note position-absolute m-0 h5"><a href="#" class="custom-font_color font-weight-bold text-decoration-none">U.S.</a></div>
+              </div>
+              <div class="card-body py-2 px-0">
+                <h5 class="card-title"><a href="#" class="text-dark font-weight-bold">Lindsey Graham Urges Trump to 'Fight Hard' After Election Loss</a></h5>
+                <p class="card-text">The South Carolina senator claimed presidential election results are "contested" amid the Trump campaign's false statements about voter fraud and related lawsuits.</p>
+              </div>
+            </div>
+          </article>
+
+          <!-- My Turn -->
+          <div class="row mt-4">
+            <div class="col">
+              <h6 class="text-muted">MY TURN</h6>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-4">
+              <div class="card border-0 mb-2">
+                <a href="#"><img class="card-img-top" src="images/my-turn_1.jpg" alt="Card image cap"></a>
+                <div class="card-body py-2 px-0">
+                  <h6 class="card-title"><a href="#" class="text-muted text-decoration-none">'I Married My High School Sweetheart After We Learned She Had Brain Cancer'</a></h6>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card border-0 mb-2">
+                <a href="#"><img class="card-img-top" src="images/my-turn_2.jpg" alt="Card image cap"></a>
+                <div class="card-body py-2 px-0">
+                  <h6 class="card-title"><a href="#" class="text-muted text-decoration-none">'I Married My High School Sweetheart After We Learned She Had Brain Cancer'</a></h6>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card border-0 mb-2">
+                <a href="#"><img class="card-img-top" src="images/my-turn_3.jpg" alt="Card image cap"></a>
+                <div class="card-body py-2 px-0">
+                  <h6 class="card-title"><a href="#" class="text-muted text-decoration-none">'I Married My High School Sweetheart After We Learned She Had Brain Cancer'</a></h6>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Culture & Travel -->
+          <div class="row mt-3">
+            <div class="col">
+              <h6 class="text-muted">CULTURE &amp; TRAVEL</h6>
+            </div>
+          </div>
+          <div class="row mb-4">
+            <div class="col-md-4">
+              <div class="card border-0 mb-2">
+                <div class="position-relative">
+                  <a href="#"><img class="card-img-top" src="images/my-turn_4.jpg" alt="Card image cap"></a>
+                  <span class="text-dark font-weight-bold bg-info px-2 badge-note position-absolute m-0 h6"><a href="#" class="text-dark font-weight-bold text-decoration-none">JAMES BOND</a></span>
+                </div>
+                <div class="card-body py-2 px-0">
+                  <h6 class="card-title"><a href="#" class="text-muted text-decoration-none">'I Married My High School Sweetheart After We Learned She Had Brain Cancer'</a></h6>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="position-relative">
+                <a href="#"><img class="card-img-top" src="images/my-turn_5.jpg" alt="Card image cap"></a>
+                <span class="text-dark font-weight-bold bg-info px-2 badge-note position-absolute m-0 h6"><a href="#" class="text-dark font-weight-bold text-decoration-none">TRAVEL</a></span>
+              </div>
+              <div class="card-body py-2 px-0">
+                <h6 class="card-title"><a href="#" class="text-muted text-decoration-none">'I Married My High School Sweetheart After We Learned She Had Brain Cancer'</a></h6>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="position-relative">
+                <a href="#"><img class="card-img-top" src="images/my-turn_6.png" alt="Card image cap"></a>
+                <span class="text-dark font-weight-bold bg-info px-2 badge-note position-absolute m-0 h6"><a href="#" class="text-dark font-weight-bold text-decoration-none">SNL</a></span>
+              </div>
+              <div class="card-body py-2 px-0">
+                <h6 class="card-title"><a href="#" class="text-muted text-decoration-none">'I Married My High School Sweetheart After We Learned She Had Brain Cancer'</a></h6>
+              </div>
+            </div>
+          </div>
+
+          <!-- More Stories -->
+          <div>
+            <h6 class="text-muted">MORE STORIES</h6>
+          </div>
+          <div class="mt-3 border-top pt-3">
+            <div class="float-left mr-3"><img src="images/more-stories_3.jpg" alt="My Stories"></div>
+            <h6><a href="#" class="text-dark font-weight-bolder">Romney Says Trump Will 'Accept the Inevitable' Once All
+                Remedies Exhausted</a></h6>
+            <p>"You're not going to change the nature of President Trump in these last days, apparently, of his
+              presidency. He is who he is, and he has a relatively relaxed relationship with the truth," Romney said
+              during an interview Sunday morning.</p>
+          </div>
+          <div class="mt-3 border-top pt-3">
+            <div class="float-left mr-3"><img src="images/more-stories_2.jpg" alt="My Stories"></div>
+            <h6><a href="#" class="text-dark font-weight-bolder">Ted Cruz Says Trump Concession 'Premature'</a></h6>
+            <p>Ghislaine Maxwell was "just as much a predator" as Jeffrey Epstein but young girls saw "the woman figure
+              as protector," a biographer tells Newsweek.</p>
+          </div>
+          <div class="mt-3 border-top pt-3">
+            <div class="float-left mr-3"><img src="images/more-stories_4.jpg" alt="My Stories"></div>
+            <h6><a href="#" class="text-dark font-weight-bolder">'Plan A' Sours for Hungary's Nationalist Leader After
+                Trump Defeat</a></h6>
+            <p>"I think we're going to project to the world that democracy works," Senator Roy Blunt said Sunday while
+              not admitting President Donald Trump lost the election.</p>
+          </div>
+          <div class="mt-3 border-top pt-3">
+            <div class="float-left mr-3"><img src="images/more-stories_5.jpg" alt="My Stories"></div>
+            <h6><a href="#" class="text-dark font-weight-bolder">Ghislaine Maxwell was 'Just as Much a Predator' as
+                Jeffrey Epstein: Author</a></h6>
+            <p>"At this point, we do not know who has prevailed in the election," the GOP Texas senator said on Fox
+              News.</p>
+          </div>
+          <div class="mt-3 border-top pt-3">
+            <div class="float-left mr-3"><img src="images/more-stories_6.jpg" alt="My Stories"></div>
+            <h6><a href="#" class="text-dark font-weight-bolder">GOP Senator Expects to See Trump and Biden Onstage
+                During Inauguration</a></h6>
+            <p>"At this point, we do not know who has prevailed in the election," the GOP Texas senator said on Fox
+              News.</p>
+          </div>
+          <div class="mt-3 border-top pt-3">
+            <div class="float-left mr-3"><img src="images/more-stories_7.jpg" alt="My Stories"></div>
+            <h6><a href="#" class="text-dark font-weight-bolder">Nations on Brink of World War Amid Unrest, Pandemic:
+                U.K. Defense Chief</a></h6>
+            <p>"At this point, we do not know who has prevailed in the election," the GOP Texas senator said on Fox
+              News.</p>
+          </div>
+          <div class="mt-3 border-top pt-3">
+            <div class="float-left mr-3"><img src="images/more-stories_8.jpg" alt="My Stories"></div>
+            <h6><a href="#" class="text-dark font-weight-bolder">At 77 Years Old, Biden Becomes Oldest President-Elect
+                in American History</a></h6>
+            <p>"At this point, we do not know who has prevailed in the election," the GOP Texas senator said on Fox
+              News.</p>
+          </div>
+          <div class="mt-3 border-top pt-3">
+            <div class="float-left mr-3"><img src="images/more-stories_9.png" alt="My Stories"></div>
+            <h6><a href="#" class="text-dark font-weight-bolder">Ocasio-Cortez Says Progressives Not the Enemy After
+                Biden's Victory</a></h6>
+            <p>"At this point, we do not know who has prevailed in the election," the GOP Texas senator said on Fox
+              News.</p>
+          </div>
+          <div class="mt-3 border-top pt-3">
+            <div class="float-left mr-3"><img src="images/more-stories_10.jpg" alt="My Stories"></div>
+            <h6><a href="#" class="text-dark font-weight-bolder">Alec Baldwin's Donald Trump Concedes With Rendition of
+                'Macho Man' on SNL</a></h6>
+            <p>"At this point, we do not know who has prevailed in the election," the GOP Texas senator said on Fox
+              News.</p>
+          </div>
+          <div class="mt-3 border-top pt-3">
+            <div class="float-left mr-3"><img src="images/more-stories_11.jpg" alt="My Stories"></div>
+            <h6><a href="#" class="text-dark font-weight-bolder">Romney Says Trump Will 'Accept the Inevitable' Once All
+                Remedies Exhausted</a></h6>
+            <p>"At this point, we do not know who has prevailed in the election," the GOP Texas senator said on Fox
+              News.</p>
+          </div>
+          <div class="mt-3 border-top pt-3">
+            <div class="float-left mr-3"><img src="images/more-stories_12.jpg" alt="My Stories"></div>
+            <h6><a href="#" class="text-dark font-weight-bolder">Mary Trump Says Things Look Bleak for Her Uncle
+                Following Loss to Biden</a></h6>
+            <p>"At this point, we do not know who has prevailed in the election," the GOP Texas senator said on Fox
+              News.</p>
+          </div>
+          <div class="mt-3 border-top pt-3">
+            <div class="float-left mr-3"><img src="images/more-stories_3.jpg" alt="My Stories"></div>
+            <h6><a href="#" class="text-dark font-weight-bolder">These Republicans Have Congratulated Biden As Trump
+                Declines to Concede</a></h6>
+            <p>"At this point, we do not know who has prevailed in the election," the GOP Texas senator said on Fox
+              News.</p>
+          </div>
+          <div class="mt-3 border-top pt-3">
+            <div class="float-left mr-3"><img src="images/more-stories_2.jpg" alt="My Stories"></div>
+            <h6><a href="#" class="text-dark font-weight-bolder">Fox News, Murdoch-Owned Papers Urge Trump to 'Leave
+                Office With Dignity'</a></h6>
+            <p>"At this point, we do not know who has prevailed in the election," the GOP Texas senator said on Fox
+              News.</p>
+          </div>
+          <div class="mt-3 border-top pt-3">
+            <div class="float-left mr-3"><img src="images/more-stories_5.jpg" alt="My Stories"></div>
+            <h6><a href="#" class="text-dark font-weight-bolder">Romney Says Trump Will 'Accept the Inevitable' Once All
+                Remedies Exhausted</a></h6>
+            <p>"At this point, we do not know who has prevailed in the election," the GOP Texas senator said on Fox
+              News.</p>
+          </div>
+          <div class="mt-3 border-top pt-3">
+            <div class="float-left mr-3"><img src="images/more-stories_9.png" alt="My Stories"></div>
+            <h6><a href="#" class="text-dark font-weight-bolder">Romney Says Trump Will 'Accept the Inevitable' Once All
+                Remedies Exhausted</a></h6>
+            <p>"At this point, we do not know who has prevailed in the election," the GOP Texas senator said on Fox
+              News.</p>
+          </div>
+          <div class="mt-3 border-top pt-3">
+            <div class="float-left mr-3"><img src="images/more-stories_7.jpg" alt="My Stories"></div>
+            <h6><a href="#" class="text-dark font-weight-bolder">Romney Says Trump Will 'Accept the Inevitable' Once All
+                Remedies Exhausted</a></h6>
+            <p>"At this point, we do not know who has prevailed in the election," the GOP Texas senator said on Fox
+              News.</p>
+          </div>
+          <div class="mt-3 border-top pt-3">
+            <div class="float-left mr-3"><img src="images/more-stories_2.jpg" alt="My Stories"></div>
+            <h6><a href="#" class="text-dark font-weight-bolder">Romney Says Trump Will 'Accept the Inevitable' Once All
+                Remedies Exhausted</a></h6>
+            <p>"At this point, we do not know who has prevailed in the election," the GOP Texas senator said on Fox
+              News.</p>
+          </div>
+          <div class="mt-3 border-top pt-3">
+            <div class="float-left mr-3"><img src="images/more-stories_11.jpg" alt="My Stories"></div>
+            <h6><a href="#" class="text-dark font-weight-bolder">Romney Says Trump Will 'Accept the Inevitable' Once All
+                Remedies Exhausted</a></h6>
+            <p>"At this point, we do not know who has prevailed in the election," the GOP Texas senator said on Fox
+              News.</p>
+          </div>
+          <div class="mt-3 border-top pt-3">
+            <div class="float-left mr-3"><img src="images/more-stories_4.jpg" alt="My Stories"></div>
+            <h6><a href="#" class="text-dark font-weight-bolder">Romney Says Trump Will 'Accept the Inevitable' Once All
+                Remedies Exhausted</a></h6>
+            <p>"At this point, we do not know who has prevailed in the election," the GOP Texas senator said on Fox
+              News.</p>
+          </div>
+          <div class="mt-3 border-top pt-3">
+            <div class="float-left mr-3"><img src="images/more-stories_3.jpg" alt="My Stories"></div>
+            <h6><a href="#" class="text-dark font-weight-bolder">Romney Says Trump Will 'Accept the Inevitable' Once All
+                Remedies Exhausted</a></h6>
+            <p>"At this point, we do not know who has prevailed in the election," the GOP Texas senator said on Fox
+              News.</p>
+          </div>
+          <div class="mt-3 border-top pt-3">
+            <div class="float-left mr-3"><img src="images/more-stories_5.jpg" alt="My Stories"></div>
+            <h6><a href="#" class="text-dark font-weight-bolder">Romney Says Trump Will 'Accept the Inevitable' Once All
+                Remedies Exhausted</a></h6>
+            <p>"At this point, we do not know who has prevailed in the election," the GOP Texas senator said on Fox
+              News.</p>
+          </div>
+          <div class="mt-3 border-top pt-3">
+            <div class="float-left mr-3"><img src="images/more-stories_6.jpg" alt="My Stories"></div>
+            <h6><a href="#" class="text-dark font-weight-bolder">Romney Says Trump Will 'Accept the Inevitable' Once All
+                Remedies Exhausted</a></h6>
+            <p>"You're not going to change the nature of President Trump in these last days, apparently, of his
+              presidency. He is who he is, and he has a relatively relaxed relationship with the truth," Romney said
+              during an interview Sunday morning.</p>
+          </div>
+          <div class="mt-3 border-top pt-3">
+            <div class="float-left mr-3"><img src="images/more-stories_10.jpg" alt="My Stories"></div>
+            <h6><a href="#" class="text-dark font-weight-bolder">Romney Says Trump Will 'Accept the Inevitable' Once All
+                Remedies Exhausted</a></h6>
+            <p>"At this point, we do not know who has prevailed in the election," the GOP Texas senator said on Fox
+              News.</p>
+          </div>
+          <div class="mt-3 border-top pt-3">
+            <div class="float-left mr-3"><img src="images/more-stories_7.jpg" alt="My Stories"></div>
+            <h6><a href="#" class="text-dark font-weight-bolder">Romney Says Trump Will 'Accept the Inevitable' Once All
+                Remedies Exhausted</a></h6>
+            <p>"At this point, we do not know who has prevailed in the election," the GOP Texas senator said on Fox
+              News.</p>
+          </div>
+          <div class="mt-3 border-top pt-3">
+            <div class="float-left mr-3"><img src="images/more-stories_8.jpg" alt="My Stories"></div>
+            <h6><a href="#" class="text-dark font-weight-bolder">Romney Says Trump Will 'Accept the Inevitable' Once All
+                Remedies Exhausted</a></h6>
+            <p>"You're not going to change the nature of President Trump in these last days, apparently, of his
+              presidency. He is who he is, and he has a relatively relaxed relationship with the truth," Romney said
+              during an interview Sunday morning.</p>
+          </div>
+          <div class="mt-3 border-top pt-3">
+            <div class="float-left mr-3"><img src="images/more-stories_11.jpg" alt="My Stories"></div>
+            <h6><a href="#" class="text-dark font-weight-bolder">Romney Says Trump Will 'Accept the Inevitable' Once All
+                Remedies Exhausted</a></h6>
+            <p>"At this point, we do not know who has prevailed in the election," the GOP Texas senator said on Fox
+              News.</p>
+          </div>
+          <div class="mt-3 border-top pt-3">
+            <div class="float-left mr-3"><img src="images/more-stories_12.jpg" alt="My Stories"></div>
+            <h6><a href="#" class="text-dark font-weight-bolder">Romney Says Trump Will 'Accept the Inevitable' Once All
+                Remedies Exhausted</a></h6>
+            <p>"You're not going to change the nature of President Trump in these last days, apparently, of his
+              presidency. He is who he is, and he has a relatively relaxed relationship with the truth," Romney said
+              during an interview Sunday morning.</p>
+          </div>
+        </div>
+
+        <!-- The Debate -->
+        <div class="col-md col-lg">
+          <div class="border-bottom pb-1">
+            <h6 class="text-muted">THE DEBATE</h6>
+          </div>
+			    <div class="position-relative border-top border-bottom">
+              <div class="d-flex align-items-center border-bottom border-top custom-margin py-3">
+                <div>
+                  <img src="images/the-debate_1.png" alt="the debate" class="w-50">
+                </div>
+                <div>
+                  <h6><a href="#" class="text-dark font-weight-bolder">Reform Section 230 Now</a></h6>
+                  <p class="text-muted">BY <strong>WILL CHAMBERLAIN</strong></p>
+                </div>
+              </div>
+              <div class="d-flex align-items-center justify-content-between border-bottom border-top py-3">
+                <div>
+                  <h6><a href="#" class="text-dark font-weight-bolder">Leave Section 230 Alone</a></h6>
+                  <p class="text-muted">BY <strong>BY MATTHEW FEENEY</strong></p>
+                </div>
+                <div>
+                  <img src="images/the-debate_2.png" alt="the debate" class="w-50">
+                </div>
+              </div>
+              <span class="bg-dark text-light font-weight-bold p-2 rounded-circle position-absolute custome-position">VS</span>
+            </div>
+
+          <!-- Opinions -->
+          <div class="pt-3 border-top">
+            <h6 class="text-muted font-weight-bolder">OPINIONS</h6>
+            <div class="mt-3 border-bottom ">
+              <img src="images/the-debate_3.png" alt="the debate" class="float-left mr-3">
+              <h6><a href="#" class="text-dark font-weight-bolder">The Lesson of 2020? Women of Color Know How to
+                  Win</a></h6>
+              <p class="text-muted">BY AIMEE ALLISON</p>
+            </div>
+            <div class="mt-3">
+              <div class="mt-3 border-bottom ">
+                <img src="images/the-debate-10.png" alt="the debate" class="float-left mr-3">
+                <h6><a href="#" class="text-dark font-weight-bolder">A Battle for the Soul of the Democratic Party</a>
+                </h6>
+                <p class="text-secondary">BY MARIANNE WILLIAMSON</p>
+              </div>
+              <div class="mt-3 border-bottom ">
+                <img src="images/the-debate_4.png" alt="the debate" class="float-left mr-3">
+                <h6><a href="#" class="text-dark font-weight-bolder">Can Biden Govern Like He Campaigned?</a></h6>
+                <p class="text-muted">BY FRANK DONATELLI</p>
+              </div>
+              <div class="mt-3 border-bottom ">
+                <img src="images/the-debate_5.png" alt="the debate" class="float-left mr-3">
+                <h6><a href="#" class="text-dark font-weight-bolder">Conservative Populists Should Take the Right Lesson
+                    from 2020</a></h6>
+                <p class="text-muted">BY PHILIP JEFFERY</p>
+              </div>
+              <div class="mt-3 border-bottom ">
+                <img src="images/the-debate_6.png" alt="the debate" class="float-left mr-3">
+                <h6><a href="#" class="text-dark font-weight-bolder">Why Trump Should Keep up the Fight</a></h6>
+                <p class="text-muted">BY NIGEL FARAGE</p>
+              </div>
+              <div class="mt-3 border-bottom ">
+                <img src="images/the-debate_7.png" alt="the debate" class="float-left mr-3">
+                <h6><a href="#" class="text-dark font-weight-bolder">Bailing Out the COVID Economy Is Job One for Joe
+                    and Mitch</a></h6>
+                <p class="text-muted">BY HANK GILMAN</p>
+              </div>
+              <div class="mt-3 border-bottom d-flex">
+                <div class="mr-3">
+                  <img src="images/the-debate_8.png" alt="the debate">
+                </div>
+                <div>
+                  <h6><a href="#" class="text-dark font-weight-bolder">The End of Mainstream Media and the Dawn of the
+                      New Frontier</a></h6>
+                  <p class="text-muted">BY CHRISTOS A. MAKRIDIS AND KENNY CUNNINGHAM</p>
+                </div>
+              </div>
+            </div>
+            <!-- End of Opinions -->
+            <div class="col-md-6 col-lg m-auto pt-3">
+              <div class="card mb-4">
+                <div class="position-relative">
+                  <a href="#"><img class="card-img-top" src="images/sponsored_1.jpg" alt="Card image cap"></a>
+                  <span class="text-primary font-weight-bold bg-light px-2 py-1 badge-note position-absolute">SPONSORED
+                    INSIGHT</span>
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title "><a href="#" class="text-dark font-weight-bolder">Serbia Has Risen to Become the
+                      Leading Investment Location in Central and Eastern Europe</a></h5>
+                  <p class="card-text">Offering customs-free access to 15% of the global market, a young, talented
+                    workforce, and high potential for future growth in sectors such as construction and IT.</p>
+                </div>
+              </div>
+
+              <div class="bg-light form-area w-75 m-auto py-4">
+                <div class="w-75 m-auto pb-3 d-flex align-items-center">
+                  <span class="mr-2"><img src="images/favicon-32x32.png" alt="sign up for a newsweek account"></span>
+                  <span class="font-weight-bold h6 align-middle">START YOUR DAY WITH OUR TOP 5 ARTICLES</span>
+                </div>
+                <form class="m-auto w-75">
+                  <div class="form-group">
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                      placeholder="Email address">
+                  </div>
+                  <button type="submit" class="border-0 py-2 my-header_top w-100 font-weight-bold text-white rounded">FREE
+                    SIGN UP <ion-icon name="chevron-forward-outline"></ion-icon></button>
+                </form>
+              </div>
+
+              <div class="card mt-4">
+                <div class="position-relative">
+                  <a href="#"><img class="card-img-top" src="images/sponsored_2.jpg" alt="Card image cap"></a>
+                  <span class="text-primary font-weight-bold bg-light px-2 py-1 badge-note position-absolute">SPONSORED
+                    INSIGHT</span>
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title "><a href="#" class="text-dark font-weight-bolder">Serbia Has Risen to Become the
+                      Leading Investment Location in Central and Eastern Europe</a></h5>
+                  <p class="card-text">Offering customs-free access to 15% of the global market, a young, talented
+                    workforce, and high potential for future growth in sectors such as construction and IT.</p>
+                </div>
+              </div>
+              <div class="card mt-4">
+                <div class="position-relative">
+                  <a href="#"><img class="card-img-top" src="images/sponsored_3.png" alt="Card image cap"></a>
+                  <span class="text-primary font-weight-bold bg-light px-2 py-1 badge-note position-absolute ">SPONSORED
+                    INSIGHT</span>
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title "><a href="#" class="text-dark font-weight-bolder">Serbia Has Risen to Become the
+                      Leading Investment Location in Central and Eastern Europe</a></h5>
+                  <p class="card-text">Offering customs-free access to 15% of the global market, a young, talented
+                    workforce, and high potential for future growth in sectors such as construction and IT.</p>
+                </div>
+              </div>
+              <div class="card mt-4">
+                <div class="position-relative">
+                  <a href="#"><img class="card-img-top" src="images/sponsored_4.png" alt="Card image cap"></a>
+                  <span class="text-primary font-weight-bold bg-light px-2 py-1 badge-note position-absolute">SPONSORED
+                    INSIGHT</span>
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title "><a href="#" class="text-dark font-weight-bolder">Serbia Has Risen to Become the
+                      Leading Investment Location in Central and Eastern Europe</a></h5>
+                  <p class="card-text">Offering customs-free access to 15% of the global market, a young, talented
+                    workforce, and high potential for future growth in sectors such as construction and IT.</p>
+                </div>
+              </div>
+              <div class="card mt-4">
+                <div class="position-relative">
+                  <a href="#"><img class="card-img-top" src="images/sponsored_5.png" alt="Card image cap"></a>
+                  <span class="text-primary font-weight-bold bg-light px-2 py-1 badge-note position-absolute">SPONSORED
+                    INSIGHT</span>
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title "><a href="#" class="text-dark font-weight-bolder">Serbia Has Risen to Become the
+                      Leading Investment Location in Central and Eastern Europe</a></h5>
+                  <p class="card-text">Offering customs-free access to 15% of the global market, a young, talented
+                    workforce, and high potential for future growth in sectors such as construction and IT.</p>
+                </div>
+              </div>
+              <div class="card mt-4">
+                <div class="position-relative">
+                  <a href="#"><img class="card-img-top" src="images/sponsored_4.png" alt="Card image cap"></a>
+                  <span class="text-primary font-weight-bold bg-light px-2 py-1 badge-note position-absolute">SPONSORED
+                    INSIGHT</span>
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title "><a href="#" class="text-dark font-weight-bolder">Serbia Has Risen to Become the
+                      Leading Investment Location in Central and Eastern Europe</a></h5>
+                  <p class="card-text">Offering customs-free access to 15% of the global market, a young, talented
+                    workforce, and high potential for future growth in sectors such as construction and IT.</p>
+                </div>
+              </div>
+              <div class="card mt-4">
+                <div class="position-relative">
+                  <a href="#"><img class="card-img-top" src="images/sponsored_5.png" alt="Card image cap"></a>
+                  <span class="text-primary font-weight-bold bg-light px-2 py-1 badge-note position-absolute">SPONSORED
+                    INSIGHT</span>
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title "><a href="#" class="text-dark font-weight-bolder">Serbia Has Risen to Become the
+                      Leading Investment Location in Central and Eastern Europe</a></h5>
+                  <p class="card-text">Offering customs-free access to 15% of the global market, a young, talented
+                    workforce, and high potential for future growth in sectors such as construction and IT.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+<!-- IN THE MAGAZINE-->
+    <div class="container-fluid mt-5">
+      <div class="row the-magazine_title border-bottom">
+        <div class="col d-flex align-items-center justify-content-center mb-2">
+          <div class="mr-2">
+            <img src="images/favicon-32x32.png" alt="Newsweek initial">
+          </div>
+          <h5 class="font-weight-bolder">IN THE MAGAZINE</h5>
+        </div>
+      </div>
+      <div class="row py-3">
+        <div class="col-md-3">
+          <div class="card border-0 mb-2">
+            <div class="position-relative">
+              <img class="card-img-top" src="images/in-magazine_1.webp" alt="Card image cap">
+              <span class="custom-font_color bg-light position-absolute px-2 badge-note font-weight-bolder">NOVEMBER 13 ISSUE</span>
+            </div>
+            <div class="card-body py-2 px-0">
+              <a href="#" class="bg-light py-2 text-center d-inline-block w-100 mt-2 font-weight-bolder h5 text-dark text-decoration-none">SEE ALL FEATURES <ion-icon name="chevron-forward-outline"></ion-icon></a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 mt-lg-4">
+          <div class="card border-0">
+            <a href="#"><img class="card-img-top" src="images/in-magazine_2.webp" alt="Card image cap"></a>
+            <div class="card-body px-0">
+              <span class="text-white my-header_top font-weight-bolder px-2 py-1 mr-2">COVER</span>
+              <span><a href="#" class="custom-font_color font-weight-bolder text-decoration-none">WORLD</a></span>
+              <h5 class="card-title mt-2"><a href="#" class="text-dark font-weight-bolder">Exclusive: 600 U.S. Groups Linked to China Communist Party Influence Effort</a></h5>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 mt-lg-4">
+          <div class="card border-0">
+            <a href="#"><img class="card-img-top" src="images/in-magazine_3.webp" alt="Card image cap"></a>
+            <div class="card-body px-0">
+              <span class="text-white my-header_top font-weight-bolder px-2 py-1 mr-2">COVER</span>
+              <span><a href="#" class="custom-font_color font-weight-bolder text-decoration-none">WORLD</a></span>
+              <h5 class="card-title mt-2"><a href="#" class="text-dark font-weight-bolder">Exclusive: 600 U.S. Groups Linked to China Communist Party Influence Effort</a></h5>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 mt-lg-4">
+          <div class="card border-0">
+            <a href="#"><img class="card-img-top" src="images/in-magazine_4.webp" alt="Card image cap"></a>
+            <div class="card-body px-0">
+              <span class="text-white my-header_top font-weight-bolder px-2 py-1 mr-2">COVER</span>
+              <span><a href="#" class="custom-font_color font-weight-bolder text-decoration-none">WORLD</a></span>
+              <h5 class="card-title mt-2"><a href="#" class="text-dark font-weight-bolder">Exclusive: 600 U.S. Groups Linked to China Communist Party Influence Effort</a></h5>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-3">
+          <div class="card border-0">
+            <a href="#"><img class="card-img-top" src="images/in-magazine_5.webp" alt="Card image cap"></a>
+            <div class="card-body px-0">
+              <span class="text-white my-header_top font-weight-bolder px-2 py-1 mr-2">COVER</span>
+              <span><a href="#" class="custom-font_color font-weight-bolder text-decoration-none">WORLD</a></span>
+              <h5 class="card-title mt-2"><a href="#" class="text-dark font-weight-bolder">Exclusive: 600 U.S. Groups Linked to China Communist Party Influence Effort</a></h5>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="card border-0">
+            <a href="#"><img class="card-img-top" src="images/in-magazine_6.webp" alt="Card image cap"></a>
+            <div class="card-body px-0">
+              <span class="text-white my-header_top font-weight-bolder px-2 py-1 mr-2">COVER</span>
+              <span><a href="#" class="custom-font_color font-weight-bolder text-decoration-none">WORLD</a></span>
+              <h5 class="card-title mt-2"><a href="#" class="text-dark font-weight-bolder">Exclusive: 600 U.S. Groups Linked to China Communist Party Influence Effort</a></h5>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="card border-0">
+            <a href="#"><img class="card-img-top" src="images/in-magazine_7.webp" alt="Card image cap"></a>
+            <div class="card-body px-0">
+              <span class="text-white my-header_top font-weight-bolder px-2 py-1 mr-2">COVER</span>
+              <span><a href="#" class="custom-font_color font-weight-bolder text-decoration-none">WORLD</a></span>
+              <h5 class="card-title mt-2"><a href="#" class="text-dark font-weight-bolder">Exclusive: 600 U.S. Groups Linked to China Communist Party Influence Effort</a></h5>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="card border-0">
+            <a href="#"><img class="card-img-top" src="images/in-magazine_8.jpg" alt="Card image cap"></a>
+            <div class="card-body px-0">
+              <span class="text-white my-header_top font-weight-bolder px-2 py-1 mr-2">COVER</span>
+              <span><a href="#" class="custom-font_color font-weight-bolder text-decoration-none">WORLD</a></span>
+              <h5 class="card-title mt-2"><a href="#" class="text-dark font-weight-bolder">Exclusive: 600 U.S. Groups Linked to China Communist Party Influence Effort</a></h5>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+<!-- EDITOR'S PICK -->
+    <div class="container-fluid mt-5 border-bottom pb-3">
+      <div class="row the-magazine_title border-bottom">
+        <div class="col-sm d-flex align-items-center justify-content-center mb-2">
+          <div class="mr-2">
+            <img src="images/favicon-32x32.png" alt="Newsweek initial">
+          </div>
+          <h5 class="font-weight-bolder">EDITOR'S PICK</h5>
+        </div>
+      </div>
+
+      <div class="row mt-3">
+        <div class="col-md-6 col-lg">
+          <div class="card border-0 mb-2">
+            <div class="position-relative">
+              <img class="card-img-top" src="images/editors-pick_1.webp" alt="Card image cap">
+              <div class="custom-font_color font-weight-bold bg-light px-2 py-1 badge-note position-absolute m-0 h5">U.S.</div>
+            </div>
+            <div class="card-body py-2 px-0">
+              <h5 class="card-title"><a href="#" class="text-dark font-weight-bold">At 77 Years Old, Biden Becomes Oldest President-Elect in American History</a></h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg">
+          <div class="card border-0 mb-2">
+            <div class="position-relative">
+              <img class="card-img-top" src="images/editors-pick_2.webp" alt="Card image cap">
+              <div class="custom-font_color font-weight-bold bg-light px-2 py-1 badge-note position-absolute m-0 h5">U.S.</div>
+            </div>
+            <div class="card-body py-2 px-0">
+              <h5 class="card-title"><a href="#" class="text-dark font-weight-bold">At 77 Years Old, Biden Becomes Oldest President-Elect in American History</a></h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg">
+          <div class="card border-0 mb-2">
+            <div class="position-relative">
+              <img class="card-img-top" src="images/editors-pick_3.webp" alt="Card image cap">
+              <div class="custom-font_color font-weight-bold bg-light px-2 py-1 badge-note position-absolute m-0 h5">U.S.</div>
+            </div>
+            <div class="card-body py-2 px-0">
+              <h5 class="card-title"><a href="#" class="text-dark font-weight-bold">At 77 Years Old, Biden Becomes Oldest President-Elect in American History</a></h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg">
+          <div class="card border-0 mb-2">
+            <div class="position-relative">
+              <img class="card-img-top" src="images/editors-pick_4.webp" alt="Card image cap">
+              <div class="custom-font_color font-weight-bold bg-light px-2 py-1 badge-note position-absolute m-0 h5">U.S.</div>
+            </div>
+            <div class="card-body py-2 px-0">
+              <h5 class="card-title"><a href="#" class="text-dark font-weight-bold">At 77 Years Old, Biden Becomes Oldest President-Elect in American History</a></h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row mt-3">
+        <div class="col-md-6 col-lg">
+          <div class="card border-0 mb-2">
+            <div class="position-relative">
+              <img class="card-img-top" src="images/editors-pick_5.webp" alt="Card image cap">
+              <div class="custom-font_color font-weight-bold bg-light px-2 py-1 badge-note position-absolute m-0 h5">U.S.</div>
+            </div>
+            <div class="card-body py-2 px-0">
+              <h5 class="card-title"><a href="#" class="text-dark font-weight-bold">At 77 Years Old, Biden Becomes Oldest President-Elect in American History</a></h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg">
+          <div class="card border-0 mb-2">
+            <div class="position-relative">
+              <img class="card-img-top" src="images/editors-pick_6.webp" alt="Card image cap">
+              <div class="custom-font_color font-weight-bold bg-light px-2 py-1 badge-note position-absolute m-0 h5">U.S.</div>
+            </div>
+            <div class="card-body py-2 px-0">
+              <h5 class="card-title"><a href="#" class="text-dark font-weight-bold">At 77 Years Old, Biden Becomes Oldest President-Elect in American History</a></h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg">
+          <div class="card border-0 mb-2">
+            <div class="position-relative">
+              <img class="card-img-top" src="images/editors-pick_7.webp" alt="Card image cap">
+              <div class="custom-font_color font-weight-bold bg-light px-2 py-1 badge-note position-absolute m-0 h5">U.S.</div>
+            </div>
+            <div class="card-body py-2 px-0">
+              <h5 class="card-title"><a href="#" class="text-dark font-weight-bold">At 77 Years Old, Biden Becomes Oldest President-Elect in American History</a></h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg">
+          <div class="card border-0 mb-2">
+            <div class="position-relative">
+              <img class="card-img-top" src="images/editors-pick_8.webp" alt="Card image cap">
+              <div class="custom-font_color font-weight-bold bg-light px-2 py-1 badge-note position-absolute m-0 h5">U.S.</div>
+            </div>
+            <div class="card-body py-2 px-0">
+              <h5 class="card-title"><a href="#" class="text-dark font-weight-bold">At 77 Years Old, Biden Becomes Oldest President-Elect in American History</a></h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+<!-- U.S. -->
+    <div class="container-fluid mt-3 border-bottom pb-2">
+      <div class="row mt-3 mb-2">
+        <div class="col">
+          <h5 class="custom-font_color font-weight-bolder">U.S.</h5>
+        </div>
+      </div>
+    
+      <div class="row pb-5">
+        <div class="col-md-4">
+          <div class="card border-0 mb-3">
+            <img class="card-img-top" src="images/US_1.webp" alt="Card image cap">
+           <div class="card-body py-2 px-0">
+              <p class="card-text"><a href="#" class="text-dark font-weight-bolder h6">Christian 'Prophets' Respond to Wrong Trump Predictions in Apologies, Anger</a></p>
+           </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card border-0 mb-3">
+            <img class="card-img-top" src="images/US_2.webp" alt="Card image cap">
+           <div class="card-body py-2 px-0">
+              <p class="card-text"><a href="#" class="text-dark font-weight-bolder h6">Christian 'Prophets' Respond to Wrong Trump Predictions in Apologies, Anger</a></p>
+           </div>
+          </div>        </div>
+        <div class="col-md-4">
+          <div class="d-flex border-bottom pb-3">
+            <div class="mr-3">
+              <img src="images/custome_img.webp" alt="article">
+            </div>
+            <p><a href="#" class="text-dark font-weight-bolder h6">Joe Biden Congratulated by Russian Opposition Leader,
+                Not by Vladimir Putin</a></p>
+          </div>
+          <div class="d-flex border-bottom pb-3 mt-3">
+            <div class="mr-3">
+              <img src="images/US_4.webp" alt="article">
+            </div>
+            <p><a href="#" class="text-dark font-weight-bolder h6">Joe Biden Congratulated by Russian Opposition Leader,
+                Not by Vladimir Putin</a></p>
+          </div>
+          <div class="d-flex mt-3">
+            <div class="mr-3">
+              <img src="images/US_5.webp" alt="article">
+            </div>
+            <p><a href="#" class="text-dark font-weight-bolder h6">Joe Biden Congratulated by Russian Opposition Leader,
+                Not by Vladimir Putin</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+<!-- WORLD -->
+    <div class="container-fluid mt-3 border-bottom pb-2">
+      <div class="row mt-3 mb-2">
+        <div class="col">
+          <h5 class="custom-font_color font-weight-bolder">World</h5>
+        </div>
+      </div>
+
+      <div class="row pb-5">
+        <div class="col-md-4">
+          <div class="card border-0 mb-3">
+            <img class="card-img-top" src="images/world_1.webp" alt="Card image cap">
+           <div class="card-body py-2 px-0">
+              <p class="card-text"><a href="#" class="text-dark font-weight-bolder h6">Christian 'Prophets' Respond to Wrong Trump Predictions in Apologies, Anger</a></p>
+           </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card border-0 mb-3">
+            <img class="card-img-top" src="images/world_2.webp" alt="Card image cap">
+           <div class="card-body py-2 px-0">
+              <p class="card-text"><a href="#" class="text-dark font-weight-bolder h6">Christian 'Prophets' Respond to Wrong Trump Predictions in Apologies, Anger</a></p>
+           </div>
+          </div>        </div>
+        <div class="col-md-4">
+          <div class="d-flex border-bottom pb-3">
+            <div class="mr-3">
+              <img src="images/custome_img.webp" alt="article">
+            </div>
+            <p><a href="#" class="text-dark font-weight-bolder h6">Joe Biden Congratulated by Russian Opposition Leader,
+                Not by Vladimir Putin</a></p>
+          </div>
+          <div class="d-flex border-bottom pb-3 mt-3">
+            <div class="mr-3">
+              <img src="images/world_4.webp" alt="article">
+            </div>
+            <p><a href="#" class="text-dark font-weight-bolder h6">Joe Biden Congratulated by Russian Opposition Leader,
+                Not by Vladimir Putin</a></p>
+          </div>
+          <div class="d-flex mt-3">
+            <div class="mr-3">
+              <img src="images/world_5.webp" alt="article">
+            </div>
+            <p><a href="#" class="text-dark font-weight-bolder h6">Joe Biden Congratulated by Russian Opposition Leader,
+                Not by Vladimir Putin</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+<!-- BUSINESS-->
+    <div class="container-fluid mt-3 border-bottom pb-2">
+      <div class="row mt-3 mb-2">
+        <div class="col">
+          <h5 class="custom-font_color font-weight-bolder">Business</h5>
+        </div>
+      </div>
+
+      <div class="row pb-5">
+        <div class="col-md-4">
+          <div class="card border-0 mb-3">
+            <img class="card-img-top" src="images/business_1.webp" alt="Card image cap">
+           <div class="card-body py-2 px-0">
+              <p class="card-text"><a href="#" class="text-dark font-weight-bolder h6">Christian 'Prophets' Respond to Wrong Trump Predictions in Apologies, Anger</a></p>
+           </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card border-0 mb-3">
+            <img class="card-img-top" src="images/business_2.webp" alt="Card image cap">
+           <div class="card-body py-2 px-0">
+              <p class="card-text"><a href="#" class="text-dark font-weight-bolder h6">Christian 'Prophets' Respond to Wrong Trump Predictions in Apologies, Anger</a></p>
+           </div>
+          </div>        </div>
+        <div class="col-md-4">
+          <div class="d-flex border-bottom pb-3">
+            <div class="mr-3">
+              <img src="images/custome_img.webp" alt="article">
+            </div>
+            <p><a href="#" class="text-dark font-weight-bolder h6">Joe Biden Congratulated by Russian Opposition Leader,
+                Not by Vladimir Putin</a></p>
+          </div>
+          <div class="d-flex border-bottom pb-3 mt-3">
+            <div class="mr-3">
+              <img src="images/business_4.webp" alt="article">
+            </div>
+            <p><a href="#" class="text-dark font-weight-bolder h6">Joe Biden Congratulated by Russian Opposition Leader,
+                Not by Vladimir Putin</a></p>
+          </div>
+          <div class="d-flex mt-3">
+            <div class="mr-3">
+              <img src="images/business_5.webp" alt="article">
+            </div>
+            <p><a href="#" class="text-dark font-weight-bolder h6">Joe Biden Congratulated by Russian Opposition Leader,
+                Not by Vladimir Putin</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+<!-- TECH & SCIENCE-->
+    <div class="container-fluid mt-3 border-bottom pb-2">
+      <div class="row mt-3 mb-2">
+        <div class="col">
+          <h5 class="custom-font_color font-weight-bolder">Tech &amp; Science</h5>
+        </div>
+      </div>
+
+      <div class="row pb-5">
+        <div class="col-md-4">
+          <div class="card border-0 mb-3">
+            <img class="card-img-top" src="images/tech-sci_1.webp" alt="Card image cap">
+           <div class="card-body py-2 px-0">
+              <p class="card-text"><a href="#" class="text-dark font-weight-bolder h6">Christian 'Prophets' Respond to Wrong Trump Predictions in Apologies, Anger</a></p>
+           </div>
+          </div> 
+        </div>
+        <div class="col-md-4">
+          <div class="card border-0 mb-3">
+            <img class="card-img-top" src="images/tech-sci_2.webp" alt="Card image cap">
+           <div class="card-body py-2 px-0">
+              <p class="card-text"><a href="#" class="text-dark font-weight-bolder h6">Christian 'Prophets' Respond to Wrong Trump Predictions in Apologies, Anger</a></p>
+           </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="d-flex border-bottom pb-3">
+            <div class="mr-3">
+              <img src="images/custome_img.webp" alt="article">
+            </div>
+            <p><a href="#" class="text-dark font-weight-bolder h6">Joe Biden Congratulated by Russian Opposition Leader,
+                Not by Vladimir Putin</a></p>
+          </div>
+          <div class="d-flex border-bottom pb-3 mt-3">
+            <div class="mr-3">
+              <img src="images/tech-sci_4.webp" alt="article">
+            </div>
+            <p><a href="#" class="text-dark font-weight-bolder h6">Joe Biden Congratulated by Russian Opposition Leader,
+                Not by Vladimir Putin</a></p>
+          </div>
+          <div class="d-flex mt-3">
+            <div class="mr-3">
+              <img src="images/tech-sci_5.webp" alt="article">
+            </div>
+            <p><a href="#" class="text-dark font-weight-bolder h6">Joe Biden Congratulated by Russian Opposition Leader,
+                Not by Vladimir Putin</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+<!-- CULTURE -->
+    <div class="container-fluid mt-3 border-bottom pb-2">
+      <div class="row mt-3 mb-2">
+        <div class="col">
+          <h5 class="custom-font_color font-weight-bolder">Culture</h5>
+        </div>
+      </div>
+
+      <div class="row pb-5">
+        <div class="col-md-4">
+          <div class="card border-0 mb-3">
+            <img class="card-img-top" src="images/culture_1.webp" alt="Card image cap">
+           <div class="card-body py-2 px-0">
+              <p class="card-text"><a href="#" class="text-dark font-weight-bolder h6">Christian 'Prophets' Respond to Wrong Trump Predictions in Apologies, Anger</a></p>
+           </div>
+          </div>  
+        </div>
+        <div class="col-md-4">
+          <div class="card border-0 mb-3">
+            <img class="card-img-top" src="images/culture_2.webp" alt="Card image cap">
+           <div class="card-body py-2 px-0">
+              <p class="card-text"><a href="#" class="text-dark font-weight-bolder h6">Christian 'Prophets' Respond to Wrong Trump Predictions in Apologies, Anger</a></p>
+           </div>
+          </div> 
+        </div>
+        <div class="col-md-4">
+          <div class="d-flex border-bottom pb-3">
+            <div class="mr-3">
+              <img src="images/custome_img.webp" alt="article">
+            </div>
+            <p><a href="#" class="text-dark font-weight-bolder h6">Joe Biden Congratulated by Russian Opposition Leader,
+                Not by Vladimir Putin</a></p>
+          </div>
+          <div class="d-flex border-bottom pb-3 mt-3">
+            <div class="mr-3">
+              <img src="images/culture_4.webp" alt="article">
+            </div>
+            <p><a href="#" class="text-dark font-weight-bolder h6">Joe Biden Congratulated by Russian Opposition Leader,
+                Not by Vladimir Putin</a></p>
+          </div>
+          <div class="d-flex mt-3">
+            <div class="mr-3">
+              <img src="images/culture_5.webp" alt="article">
+            </div>
+            <p><a href="#" class="text-dark font-weight-bolder h6">Joe Biden Congratulated by Russian Opposition Leader,
+                Not by Vladimir Putin</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+<!-- SPORTS -->
+    <div class="container-fluid mt-3 border-bottom pb-2">
+      <div class="row mt-3 mb-2">
+        <div class="col">
+          <h5 class="custom-font_color font-weight-bolder">Sports</h5>
+        </div>
+      </div>
+
+      <div class="row pb-5">
+        <div class="col-md-4">
+          <div class="card border-0 mb-3">
+            <img class="card-img-top" src="images/sports_1.webp" alt="Card image cap">
+            <div class="card-body py-2 px-0">
+              <p class="card-text"><a href="#" class="text-dark font-weight-bolder h6">Christian 'Prophets' Respond to Wrong Trump Predictions in Apologies, Anger</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card border-0 mb-3">
+            <img class="card-img-top" src="images/sports_2.webp" alt="Card image cap">
+            <div class="card-body py-2 px-0">
+              <p class="card-text"><a href="#" class="text-dark font-weight-bolder h6">Christian 'Prophets' Respond to Wrong Trump Predictions in Apologies, Anger</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="d-flex border-bottom pb-3">
+            <div class="mr-3">
+              <img src="images/custome_img.webp" alt="article" >
+            </div>
+            <p><a href="#" class="text-dark font-weight-bolder h6">Joe Biden Congratulated by Russian Opposition Leader,
+                Not by Vladimir Putin</a></p>
+          </div>
+          <div class="d-flex border-bottom pb-3 mt-3">
+            <div class="mr-3">
+              <img src="images/sports_4.webp" alt="article">
+            </div>
+            <p><a href="#" class="text-dark font-weight-bolder h6">Joe Biden Congratulated by Russian Opposition Leader,
+                Not by Vladimir Putin</a></p>
+          </div>
+          <div class="d-flex mt-3">
+            <div class="mr-3">
+              <img src="images/sports_5.webp" alt="article">
+            </div>
+            <p><a href="#" class="text-dark font-weight-bolder h6">Joe Biden Congratulated by Russian Opposition Leader,
+                Not by Vladimir Putin</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+<!-- SUBSCRIBE / NEWSLETTERS -->
+    <div class="container-fluid">
+      <div class="row mt-4">
+        <div class="col-md-12 col-lg-6 mb-3">
+          <div>
+            <h6 class="custom-font_color ml-3">SUBSCRIBE</h6>
+          </div>
+          <div class="bg-light  py-3 d-md-flex">
+            <div class="col-md-6 position-relative subscribe">
+              <img src="images/subscribe-img-a.jpg" alt="image">
+              <img src="images/subscribe-img.jpg" alt="image" class="position-absolute sub-custome">
+            </div>
+            <div class="col-md-6 p-3 d-flex flex-column justify-content-center align-items-center">
+              <h5 class="font-weight-bolder text-center">In-depth Stories You Don't See Elsewhere About Topics You Want to
+                Read!</h5>
+              <p class="text-center">All Access + Weekly Delivery. <br>Choose A Membership That's Perfect for You! </p>
+              <button type="submit" class="border-0 py-2 my-header_top  font-weight-bold text-white rounded">SUBSCRIBE
+                <ion-icon name="chevron-forward-outline"></ion-icon></button>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-12 col-lg-6">
+          <div>
+            <h6 class="custom-font_color">NEWSLETTER</h6>
+          </div>
+          <div class="row border no-gutters">
+            <div class="col-md-6 newsletter">
+              <img src="images/newsletter.png" class="img-fluid w-100" alt="image">
+            </div>
+            <div class="col-md-6 p-3 d-flex flex-column justify-content-center align-items-center">
+              <div class="w-75 m-auto">
+                <h5 class="font-weight-bolder">The Starting 5</h5>
+                <p>See why nearly a quarter of a million subscribers begin their day with the Starting 5.</p>
+              </div>
+
+              <form class="d-flex flex-md-column align-items-center w-100">
+                <div class="form-group w-75">
+                  <input type="email" class="form-control" id="exampleInputEmail" aria-describedby="emailHelp" placeholder="Email address">
+                </div>
+                <button type="submit" class="border-0 news-button py-2 my-header_top w-75 font-weight-bold text-white rounded">FREE SIGN UP <ion-icon name="chevron-forward-outline"></ion-icon></button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="border-top mt-3">
+    <div class="ml-3 mr-3">
+      <div class="d-md-flex align-items-end border-bottom mt-3">
+        <div>
+          <svg class="foot-logo" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 395.6 60"
+            style="enable-background:new 0 0 395.6 60;" xml:space="preserve">
+            <g>
+              <path class="st0"
+                d="M58.7,10.8h-5.6v48.3H42.8l-25.1-33v22.1h5.6v10.8H0V48.3h5.6V10.8H0V0h17.6L41,30.7V10.8h-5.6V0h23.2	L58.7,10.8L58.7,10.8z M95.8,38c0,0.9,0,1.8-0.1,2.7H70.3c-0.7,8.2,2.4,10.6,7.1,10.6c3.9,0,6.9-2.6,6.9-6.6h11	c-0.3,7.2-4,15.4-18.5,15.4c-14.5,0-21.3-10.5-21.3-22.1c0-10.5,7-21.6,21-21.6C89.9,16.3,95.8,25.6,95.8,38 M159,27.3h-3.7	l-9.4,31.8h-12.5l-5.9-17.4l-5.3,17.4h-12.8L98.8,27.4h-3.7V16.6h22.1v10.7h-5.6l5.8,16.9l7.6-27.6h6.8l9.3,27.6l5-16.9h-5.6V16.6	H159L159,27.3L159,27.3z M174.5,27.8c0,1.5,1.2,2.5,5.4,3.9l6,2c5.5,1.8,12.1,5.9,12.1,13.4c0,8.8-6.6,13-14.7,13	c-6.5,0-11.5-3.2-12.9-4.6V59h-10.8V44.4h10.6c0.3,4.8,4.6,7.3,8.5,7.3c3.2,0,4.7-1.4,4.7-3c0-2-1.2-3.1-6.5-4.8l-5.3-1.8	c-5.4-1.7-11.4-5.7-11.4-12.8c0-8.7,7.7-13.1,14.3-13.1c6.8,0,10.1,1.9,11.8,3.8l0.1-3.3H197v13.3h-11.2c-0.2-3.6-3.7-5.2-7.2-5.2	C175.8,24.8,174.5,26.1,174.5,27.8 M262.8,27.3h-3.7l-9.4,31.8h-12.5l-5.9-17.4L226,59.1h-12.8l-10.6-31.7h-3.7V16.6h22.1v10.7	h-5.6l5.8,16.9l7.6-27.6h6.8l9.3,27.7l5-16.9h-5.6V16.6h18.5V27.3z M302,37.9c0,0.9,0,1.8-0.1,2.7h-25.4	c-0.7,8.2,2.4,10.6,7.1,10.6c3.9,0,6.9-2.6,6.9-6.6h11c-0.3,7.2-4,15.4-18.5,15.4c-14.5,0-21.3-10.5-21.3-22.1	c0-10.5,7-21.6,21-21.6C296.1,16.2,302,25.5,302,37.9 M343.9,37.8c0,0.9,0,1.8-0.1,2.7h-25.4c-0.7,8.2,2.4,10.6,7.1,10.6	c3.9,0,6.9-2.6,6.9-6.6h11c-0.3,7.2-4,15.4-18.5,15.4c-14.5,0-21.3-10.5-21.3-22.1c0-10.5,7-21.6,21-21.6	C338,16.1,343.9,25.4,343.9,37.8 M389.9,59h-12.8l-13.3-17.3l-4.3,3.2v3.4h3.8V59h-19.6V48.3h3.7V10.6h-5.6V0h17.8v33.9l8.9-6.5	h-5.6V16.6h23.9v10.8h-3.7l-9.3,7l10.7,13.9h5.6L389.9,59L389.9,59z M395.6,56.6c0,0.5-0.1,0.9-0.4,1.2c-0.2,0.4-0.5,0.7-0.9,0.9	c-0.4,0.2-0.8,0.4-1.3,0.4c-0.5,0-0.9-0.1-1.2-0.4c-0.4-0.2-0.7-0.5-0.9-0.9c-0.2-0.4-0.4-0.8-0.4-1.2c0-0.5,0.1-0.9,0.4-1.2	c0.2-0.4,0.5-0.7,0.9-0.9c0.4-0.2,0.8-0.4,1.2-0.4c0.5,0,0.9,0.1,1.3,0.4c0.4,0.2,0.7,0.5,0.9,0.9	C395.5,55.8,395.6,56.2,395.6,56.6 M394.6,58c0.4-0.4,0.6-0.9,0.6-1.4c0-0.6-0.2-1-0.6-1.4s-0.9-0.6-1.4-0.6s-1,0.2-1.4,0.6	c-0.4,0.4-0.6,0.9-0.6,1.4c0,0.6,0.2,1,0.6,1.4c0.4,0.4,0.9,0.6,1.4,0.6S394.2,58.4,394.6,58 M393.6,56.8c0.1,0.1,0.2,0.1,0.2,0.1	c0.1,0.1,0.2,0.2,0.2,0.3c0,0,0.2,0.3,0.4,0.8h-0.8c-0.3-0.5-0.4-0.8-0.5-0.9c-0.1-0.1-0.2-0.2-0.3-0.2c0,0-0.1,0-0.1,0v1.1h-0.6	v-2.6h1.2c0.4,0,0.6,0.1,0.7,0.2c0.2,0.2,0.2,0.3,0.2,0.6c0,0.2-0.1,0.4-0.2,0.5C393.9,56.6,393.8,56.7,393.6,56.8 M393.5,56.3	c0.1-0.1,0.1-0.2,0.1-0.3s-0.1-0.2-0.1-0.3c-0.1-0.1-0.2-0.1-0.4-0.1h-0.3v0.7h0.3C393.3,56.4,393.4,56.4,393.5,56.3 M318.4,33.5	h13.9c0-6-3.9-8.4-6.8-8.4C322.1,25.2,318.6,27.9,318.4,33.5 M276.5,33.6h13.9c0-6-3.9-8.4-6.8-8.4C280.3,25.2,276.8,28,276.5,33.6 M70.3,33.7h13.9c0-6-3.9-8.4-6.8-8.4C74.1,25.3,70.6,28.1,70.3,33.7">
+              </path>
+            </g>
+          </svg>
+        </div>
+        <div class="text-uppercase font-weight-bolder text-secondary foot-detail">
+          <p class="logo-details">© 2020 NEWSWEEK DIGITAL LLC</p>
+        </div>
+        <div class="ml-auto">  
+          <ul class="d-flex list-unstyled">
+            <li><ion-icon name="logo-facebook" size="large"></ion-icon></li>
+            <li><ion-icon name="logo-twitter" size="large"></ion-icon></li>
+            <li><ion-icon name="logo-instagram" size="large"></ion-icon></li>
+            <li><ion-icon name="logo-tumblr" size="large"></ion-icon></li>
+            <li><ion-icon name="logo-linkedin" size="large"></ion-icon></li>
+          </ul>
+        </div>
+      </div>
+
+
+      <div class="mt-2">
+        <ul class="d-flex flex-wrap list-unstyled">
+          <li class="bod pr-2 small text font-weight-bolder text-secondary">EDITIONS : </li>
+          <li class="bod pl-2 pr-2 small text font-weight-normal text-secondary">U.S. Edition</li>
+          <li class="bod pl-2 pr-2 small text font-weight-normal text-secondary">日本</li>
+          <li class="bod pl-2 pr-2 small text font-weight-normal text-secondary">Pakistan</li>
+          <li class="bod pl-2 pr-2 small text font-weight-normal text-secondary">Polska</li>
+          <li class="bod pl-2 pr-2 small text font-weight-normal text-secondary">România</li>
+        </ul>
+      </div>
+      <div>
+        <ul class="d-flex flex-wrap list-unstyled">
+          <li class="bod pr-2 small text font-weight-normal text-secondary">About Us</li>
+          <li class="bod pl-2 pr-2 small text font-weight-normal text-secondary">Contact Us</li>
+          <li class="bod pl-2 pr-2 small text font-weight-normal text-secondary">Editorial Guidelines</li>
+          <li class="bod pl-2 pr-2 small text font-weight-normal text-secondary">Advertise</li>
+          <li class="bod pl-2 pr-2 small text font-weight-normal text-secondary">Copyright</li>
+          <li class="bod pl-2 pr-2 small text font-weight-normal text-secondary">Terms & Conditions</li>
+          <li class="bod pl-2 pr-2 small text font-weight-normal text-secondary">Privacy Policy</li>
+          <li class="bod pl-2 pr-2 small text font-weight-normal text-secondary">Cookie Policy</li>
+          <li class="bod pl-2 pr-2 small text font-weight-normal text-secondary">Terms of Sale</li>
+          <li class="bod pl-2 pr-2 small text font-weight-normal text-secondary">Archive</li>
+          <li class="bod pl-2 pr-2 small text font-weight-normal text-secondary">Announcements</li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+
+
+
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+    crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/ionicons@5.2.3/dist/ionicons.js"></script>
+</body>
+
+</html>

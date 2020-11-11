@@ -1,10 +1,91 @@
-.my-col__1 {
-  border: 1px solid blue;
-}
-.my-col__2 {
-  border: 1px solid chartreuse;
+.my-header_top {
+  background-color: #f72210;
 }
 
-.my-col__3 {
-  border: 1px solid red;
+.custom-font_color {
+  color: #f72210;
 }
+
+.logo {
+  width: 100%;
+  min-width: 128px;
+}
+
+.fontAwesome {
+  font-family: 'Helvetica', FontAwesome, sans-serif;
+}
+
+.badge-note {
+  left: 0;
+  bottom: 0;
+}
+
+.foot-logo {
+  display: block;
+    width: 236px;
+    height: 36px;
+    margin-right: 15px;
+    margin-bottom: 12px;
+    fill: #f72210;
+}
+
+.foot-detail {
+  margin-bottom: -8px;
+}
+
+.newsletter img,
+.subscribe img {
+  height: 100%;
+}
+
+
+.logo-details {
+  font-size: 12px;
+}
+
+
+.custome-position {
+  left: 45%;
+  top: 40%;
+  z-index: 10;
+}
+
+.custom-margin {
+  margin-bottom: 1px;
+}
+
+.sub-custome {
+  left: 15%;
+  top: 0;
+  z-index: 11;
+}
+
+ @media screen and (min-width: 768px) {
+  .bod {
+    border-right: 1px solid lightgray;
+  }
+
+  .custom-font_size {
+    font-size: 12px;
+  }
+} 
+
+@media screen and (max-width: 768px) {
+  .news-button {
+    margin-top: -1rem;
+    margin-left: -0.25rem;
+  }
+
+  .custom-font {
+    font-size: 12px;
+  }
+}
+
+.custom-z_index {
+  top: 0;
+  right: 0;
+  z-index: 10;
+}
+
+
+
