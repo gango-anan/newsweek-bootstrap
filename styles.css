@@ -8,7 +8,7 @@
 
 .logo {
   width: 100%;
-  min-width: 96px;
+  min-width: 128px;
 }
 
 .fontAwesome {
@@ -69,6 +69,12 @@
     margin-top: -1rem;
     margin-left: -0.25rem;
   }
+}
+
+.custom-z_index {
+  top: 0;
+  right: 0;
+  z-index: 10;
 }
 
 
