@@ -32,7 +32,9 @@ Project based on Newsweek home page, it shows a Subscribe button on the top-righ
  
  
  
-  [Live demo link](https://rawcdn.githack.com/gango-anan/newsweek-bootstrap/5461e1faae62f96c55d221b55cdef764fb782440/index.html)
+  [Live demo link](https://gango-anan.github.io/newsweek-bootstrap/)
+
+
  
  
 
