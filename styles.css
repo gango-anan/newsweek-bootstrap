@@ -65,13 +65,9 @@
 } 
 
 @media screen and (max-width: 768px) {
-  .bod {
-    border-right: 1px solid lightgray;
-  }
-
   .news-button {
-    margin-top: -16px;
-    margin-left: -5px;
+    margin-top: -1rem;
+    margin-left: -0.25rem;
   }
 }
 
