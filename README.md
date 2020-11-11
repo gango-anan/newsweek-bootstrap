@@ -1,6 +1,6 @@
 # Newsweek-Bootstrap
 
-![screenshot](images/screenshot.PNG)
+![screenshot](images/snapshot.png)
 
 ### **Description:** 
 
