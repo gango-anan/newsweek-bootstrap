@@ -55,7 +55,9 @@
 }
 
 .sub-custome {
-  left: 20%;
+  left: 15%;
+  top: 0;
+  z-index: 11;
 }
 
  @media screen and (min-width: 768px) {
